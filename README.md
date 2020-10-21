@@ -11,10 +11,10 @@ le support de cours de 2020 - 2021
 
 * Les 3 technologies fondatrices du Web et à quoi elles servent ?
 
-* Qu’est-ce que l’interopérabilité ?
+* Qu’est-ce que l’interopérabilité ? 
 
 * Qu'est ce que le web de données ?
 
 * Qu'est-ce que ça veut dire pour vous "intégration de données connectées" ?
 
-* En quoi cela peut vous servir dans un parcours Dats Science ?
+* En quoi cela peut vous servir dans un parcours Data Science ?
