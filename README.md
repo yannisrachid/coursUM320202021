@@ -12,7 +12,7 @@ le support de cours de 2020 - 2021
 * La différence entre le Web et internet ?
 
 * Les 3 technologies fondatrices du Web et à quoi elles servent ? 
-    W3C? 
+    C'est W3C?
 
 * Qu’est-ce que l’interopérabilité ? 
     Possibilité de communication entre deux ou plusieurs systèmes, appareils ou éléments informatiques.
