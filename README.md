@@ -4,7 +4,7 @@ le support de cours de 2020 - 2021
 #les questions de culture général - introduction
 
 * Date et nom de l'inventeur du web :
-
+Modif
 * Différence entre le web et Internet :
 
 * La différence entre le Web et internet ?
