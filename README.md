@@ -27,5 +27,5 @@ le web des données est la demarche d'integrer ensemble des données disparates 
 L'intégration de données connectée est l'aggregation de données.
 
 * En quoi cela peut vous servir dans un parcours Data Science ?
-
+Cela permet d'aller chercher des données et de constituer un corpus de données.
 
