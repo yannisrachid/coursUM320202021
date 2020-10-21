@@ -1,8 +1,6 @@
 # coursUM320202021
 le support de cours de 2020 - 2021
 
-Ce changement n'est qu'un exemple
-
 #les questions de culture générale - introduction
 
 * Date et nom de l'inventeur du web :
