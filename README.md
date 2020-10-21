@@ -3,7 +3,7 @@ le support de cours de 2020 - 2021
 
 #les questions de culture général - introduction
 
-* Date et nom de l'inventeur du web :
+* Date et nom de l'inventeur du web : Dans les annnées 1990, Time Berners-Lee invente le web
 
 * Différence entre le web et Internet :
 
