@@ -1,6 +1,8 @@
 # coursUM320202021
 le support de cours de 2020 - 2021
 
+Je ne sais pas répondre aux questions (sans internet)
+
 #les questions de culture général - introduction
 
 * Date et nom de l'inventeur du web :
