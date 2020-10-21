@@ -7,7 +7,7 @@ le support de cours de 2020 - 2021
     Tim Berners-Lee en 1989
 
 * La différence entre le Web et internet ?
-Internet est la structure sur lequelles l application web existe.
+Internet est la structure sur lequelles l'application web existe.
 
 * Les 3 technologies fondatrices du Web et à quoi elles servent ?
 
@@ -18,7 +18,6 @@ Internet est la structure sur lequelles l application web existe.
     Publication de données structurées et reliés entres elles sur le Web --> réseau global d'informations.
 le web des données est la demarche d'integrer ensemble des données disparates et de les organiser
 
-
-* Qu'est-ce que ça veut dire pour vous "intégration de données connectées" ? 
+* Qu'est-ce que ça veut dire pour vous "intégration de données connectées" ?
 
 * En quoi cela peut vous servir dans un parcours Data Science ?
