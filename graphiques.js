@@ -18,7 +18,6 @@ function camembert(arrondissement){
 					$(#40a60),
 					$(#60a80),
 					$(#80a100),
-					$(#100plus),
 				],
 				backgroundColor : [
 					'rgb(0, 0, 0)',
@@ -26,7 +25,6 @@ function camembert(arrondissement){
 					'rgb(80, 20, 110)',
 					'rgb(150, 150, 150)',
 					'rgb(255, 0, 0)',
-					'rgb(60, 100, 255)',
 				],
 				label: "La répartition de la population en fonction de l'âge"
 			}],
@@ -36,7 +34,6 @@ function camembert(arrondissement){
 				'40 à 60 ans',
 				'60 à 80 ans',
 				'80 à 100 ans',
-				'plus de 100 ans',
 			]
 		},
 	// Configuration options go here
@@ -101,7 +98,7 @@ function nuagedepoints(){
                 x: $(#15v),
                 y: $(#20a60a15)
             }, {
-                x: $(#1v6),
+                x: $(#16v),
                 y: $(#20a60a16)
             }, {
                 x: $(#17v),
