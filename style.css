@@ -6,7 +6,6 @@ body{
 
 	margin-right: auto;
 	margin-left: auto;
-	background-color:lightgrey;
 	background-image: url(image.jpg);
 	background-attachment:fixed;
 	background-repeat:no-repeat;
@@ -17,20 +16,23 @@ body{
     margin-top: 90px;
     border-style: outset;
     margin-left: 100px;
-    margin-right: 600px;
+    margin-right: 695px;
     font-size: xx-large;
     font-weight: bold;
-    background-color:lightgrey;
+    background-color:white;
+    border-color: white;
 }
 
 #h2{
 	margin-top: 80px;
     border-style: outset;
-    margin-left: 0px;
+    border-color: red;
+    margin-left: 10px;
     margin-right: 500px;
     font-size: large;
     text-align: center;
-    background-color:lightgrey;
+    background-color:red;
+    color: white;
 }
 
 form{
