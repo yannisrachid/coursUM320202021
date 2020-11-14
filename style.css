@@ -1,0 +1,39 @@
+*{
+	font-family: "Didot";
+}
+
+body{
+
+	margin-right: auto;
+	margin-left: auto;
+	background-color:lightgrey;
+	background-image: url(image.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#idTitre{
+    margin-top: 90px;
+    border-style: outset;
+    margin-left: 100px;
+    margin-right: 600px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color:lightgrey;
+}
+
+#h2{
+	margin-top: 80px;
+    border-style: outset;
+    margin-left: 0px;
+    margin-right: 500px;
+    font-size: large;
+    text-align: center;
+    background-color:lightgrey;
+}
+
+form{
+	margin-top: 0px;
+	margin-left: 700px;
+}
