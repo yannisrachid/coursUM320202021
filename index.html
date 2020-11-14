@@ -1,17 +1,32 @@
-<!doctype html>
+ <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
 
-    </head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>immobilier à Paris</title>
+		<link rel="stylesheet" href="style.css"  />
+		<script type ="text/JavaScript" src="script.js"> </script>
+ 		<script type="text/javascript" src="jquery.min.js"> </script>
 
-    <body>
-        <div id=maincontent>
+	</head>
+	
+	
+	<body  >
+		<h1 id= "idTitre" onclick= "test()"> L'immobilier à Paris </h1>
+		<h2 id= "h2"> Vous souhaitez acheter un bien immobilier à Paris? Découvrez toutes les informations par commune ici !</h2>
+
+		<form method= "POST">
+  			<div>
+    			<input type="search" id="mySearch" name="q"
+			    placeholder="Entrez un code INSEE" required>
+			    <button onclick="getValue()">Rechercher</button>
+ 			 </div>
+		</form>
+
+		<div id=maincontent>
 
         </div>
-    </body>
-</html>
 
-<script>
-    
-</script>
+
+	</body>
+</html>
