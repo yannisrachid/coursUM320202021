@@ -1,3 +1,28 @@
 # first page 
 
-https://editor.wix.com/html/editor/web/renderer/edit/bb56e7ac-1418-4cd4-9712-00294b547189?editorSessionId=2196c3d6-5434-4c8d-b44b-63563d82442c&metaSiteId=ad050648-1b83-442f-80df-ecdad4f9e1b3
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>immobilier à Paris</title>
+		<link rel="stylesheet" href="style.css"  />
+		<script type ="text/JavaScript" src="monscript.js"> </script>
+ 		<script type="text/javascript" src="jquery.min.js"> </script>
+
+	</head>
+	
+	
+	<body  >
+		<h1 id= "idTitre" onclick= "test()"> L'immobilier à Paris </h1>
+		<h2 id= "h2"> Vous souhaitez acheter un bien immobilier à Paris? Découvrez toutes les informations par commune ici !</h2>
+
+		<form method= "POST">
+  			<div>
+    			<input type="search" id="mySearch" name="q"
+			    placeholder="Entrez un code INSEE" required>
+			    <button onclick="clic()">Rechercher</button>
+ 			 </div>
+		</form>
+	</body>
+</html>
