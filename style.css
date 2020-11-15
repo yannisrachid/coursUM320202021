@@ -53,12 +53,14 @@ div{
 {
     position:relative;
     width:60%;
+    float: left;
 }
 #droite
 {
     position:relative;
     left:60%;
     width:40%;
+    float: right;
 }
 
 
