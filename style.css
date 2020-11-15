@@ -16,7 +16,7 @@ body{
     margin-top: 90px;
     border-style: outset;
     margin-left: 100px;
-    margin-right: 695px;
+    margin-right: 1010px;
     font-size: xx-large;
     font-weight: bold;
     background-color:white;
@@ -28,14 +28,37 @@ body{
     border-style: outset;
     border-color: red;
     margin-left: 10px;
-    margin-right: 500px;
+    margin-right: 800px;
     font-size: large;
     text-align: center;
     background-color:red;
     color: white;
 }
 
-form{
-	margin-top: 0px;
-	margin-left: 700px;
+
+
+div{
+	 width: 600px;  
+	 padding-top:50px; 
+	 padding-right: 10px;
+	 padding-left: 300Px;
+	 padding-bottom:500px;
+	text-align: center;
+	background-color:white;
+	border-style: outset;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
