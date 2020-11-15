@@ -1,45 +1,30 @@
-# coursUM320202021
-le support de cours de 2020 - 2021
- 
-#les questions de culture générale - introduction
- 
-* Date et nom de l'inventeur du web : 
-    Tim Berners-Lee en 1989
+## Projet API sur le valeur foncière du logement à Paris en fonction de la population
+L'objectif de notre projet était de construire une API qui relie deux APIs différentes pour observer s'il existe des corrélations entre les deux ou non, tout en proposant deux formats de récupération des données. Après de nombreuses recherches d'APIs, nous avons décidé de regrouper des données sur les valeurs foncières de tous les logements parisiens, et des données sur la démographie à Paris.
 
-* La différence entre le Web et internet ?
-Internet est la structure sur lequelles l'application web existe.
-Internet c'est le réseau globale. Et le web est un des services de internet.
+# Etape 1 - Choix des API
+L'objectif majeur du projet était la création d'une application simple d'utilisation, et pertinente. Ainsi, à partir du nom d'un arrondissement parisien choisi par l'utilisateur (avec le nom ou le code INSEE), l'application renvoie un ensemble de données sur la démographie de l'arrondissement, comme la répartition des âges, et la valeur foncière moyenne.
 
-* Les 3 technologies fondatrices du Web et à quoi elles servent ?
-- Le HTTP : qui est le protocole de transfert réseaux au dessus d'IP. Il permet l'envoie de données.
-- Le HTML : est un système de balisage ( lagage de description ) normé par le W3C pour permettre de décrire la structure d'une page web.
-- Les URI : système de nommage des Ressources.
+Notre première API renvoie des données sur les logements en France. Elle comporte des données telles que la valeur foncière, le nombre de pièce, le code INSEE et le nom de la commune où elle se situe...  Cette API s'appelle "Micro-API DVF" et est disponible sur : https://www.data.gouv.fr/fr/reuses/micro-api-dvf-demande-de-valeurs-foncieres/.
 
-* Qu’est-ce que l’interopérabilité ? 
-    Possibilité de communication entre deux ou plusieurs systèmes, appareils ou éléments informatiques.
+Notre deuxièlme API, intitulée "RECENSEMENT COMMUNE POPULATION" , que l'on peut retrouver à l'adresse suivant : https://opendata.apur.org/datasets/recensement-commune-population?geometry=-1.324%2C48.192%2C6.087%2C49.458&page=14, comporte, pour chaque commune d'une partie de la région Île-de-France (75, 93, 94, 95, 91), les données sur la démographie associée, comme la répartition de la population selon l'âge, le nombre d'habitants, son évolution ou encore le pourcentage d'étrangers.
 
-* Qu'est ce que le web de données ? 
-Ca permet de relier les données entre elles sur le web par des URI.
-    Publication de données structurées et reliés entres elles sur le Web --> réseau global d'informations.
-le web des données est la demarche d'integrer ensemble des données disparates et de les organiser 
+Ces deux APIs sont jointes par le code INSEE de la commune.
 
-* Qu'est-ce que ça veut dire pour vous "intégration de données connectées" ?
-L'intégration de données connectée est l'aggregation de données.
+# Etape 2 - Côté client
+Grâce au fichier HTML créé dans un second temps, l'accès à l'API peut à partir d'un champ : L'utilisateur saisi le nom d'un arrondissement parisien, et en réponse sera affiché un tableau avec des informations sur l'arrondissement choisi : le prix moyen de la valeur foncière, un graphique de la répartition des âges au sein de cet arrondissement, et un graphique en barre de la valeur foncière moyenne en fonction du nombre de pièces principales.
 
-* En quoi cela peut vous servir dans un parcours Data Science ?
-Cela permet d'aller chercher des données et de constituer un corpus de données.
+Explications Tableau, requêtes (à compléter)
 
-#le sujet support d'exercice 
-Sur un github partagé, une branche par groupe, nous allons développer un moissoneur de données sur les EHPAD en France.
+# Les difficultés rencontrées
+- Le choix de l'API
 
-#le sujet du projet en groupe
+La première difficultée rencontrée a été de trouver deux APIs dont l'étude pouvait être cohérente. En effet, au début nous voulions utiliser une API sur la météo, ce que le professeur nous a déconseillé car c'était peu pertinent, et beaucoup de groupes l'avaient et voulaient l'utiliser les années précédentes. Ayant trouvés une API sur la valeur foncière, on s'est dit qu'il était intéressant d'observer la population qui vivait au sein de ces logements. Par exemple, si dans les arrondissements où le prix foncier moyen était élevé, la population est plutôt vieille. Ou encore si dans les arrondissements où le prix foncier est plus faible, est-ce que plus de personnes jeunes ou étrangères y résident ?
 
-Identifier des sources de données sur le Web.
-Récupérer des données à partir de ces sources.
-Les aggréger et les restituer.
-Identifier les difficultés de la démarche.
+- L'affichage des graphiques :
 
-Par groupe de 4 ou 3.
+(à compléter)
 
-Le livrable c'est un code client html javascript uniquement hébergé en githubpage.
 
+# Participants
+
+Cheikh DIOP, Thibaut ESCALANTE, Sophie NGOTALA, Yannis RACHID
