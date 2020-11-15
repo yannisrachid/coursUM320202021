@@ -13,11 +13,11 @@ function camembert(arrondissement){
 		data: {
 			datasets: [{
 				data : [
-					$(#0a20),
-					$(#20a40),
-					$(#40a60),
-					$(#60a80),
-					$(#80a100),
+					$(#part_moins_20ans),
+					$(#part_20_40ans),
+					$(#part_40_60ans),
+					$(#part_60_80ans),
+					$(#part_plus_80ans),
 				],
 				backgroundColor : [
 					'rgb(0, 0, 0)',
