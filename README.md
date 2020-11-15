@@ -11,7 +11,7 @@ Notre deuxièlme API, intitulée "RECENSEMENT COMMUNE POPULATION" , que l'on peu
 Ces deux APIs sont jointes par le code INSEE de la commune.
 
 ## Etape 2 - Côté client
-Grâce au fichier HTML créé dans un second temps, l'accès à l'API peut à partir d'un champ : L'utilisateur saisi le nom d'un arrondissement parisien, et en réponse sera affiché un tableau avec des informations sur l'arrondissement choisi : le prix moyen de la valeur foncière, un graphique de la répartition des âges au sein de cet arrondissement, et un graphique en barre de la valeur foncière moyenne en fonction du nombre de pièces principales.
+Grâce au fichier HTML créé dans un second temps, l'accès à l'API peut s'effectuer à partir d'un champ : L'utilisateur saisi le nom d'un arrondissement parisien, et en réponse sera affiché un tableau avec des informations sur l'arrondissement choisi : le prix moyen de la valeur foncière, un graphique de la répartition des âges au sein de cet arrondissement, et un graphique en barre de la valeur foncière moyenne en fonction du nombre de pièces principales.
 
 Explications Tableau, requêtes (à compléter)
 
