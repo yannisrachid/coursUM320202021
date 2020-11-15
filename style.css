@@ -49,7 +49,17 @@ div{
 
 }
 
-
+#gauche
+{
+    position:relative;
+    width:50%;
+}
+#droite
+{
+    position:relative;
+    left:50%
+    width:50%;
+}
 
 
 
