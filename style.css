@@ -52,13 +52,13 @@ div{
 #gauche
 {
     position:relative;
-    width:50%;
+    width:40%;
 }
 #droite
 {
     position:relative;
-    left:50%
-    width:50%;
+    left:50%;
+    width:40%;
 }
 
 
