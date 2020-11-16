@@ -1,5 +1,5 @@
-# Projet API sur le valeur foncière du logement à Paris en fonction de la population
-L'objectif de notre projet était de construire une API qui relie deux APIs différentes pour observer s'il existe des corrélations entre les deux ou non, tout en proposant deux formats de récupération des données. Après de nombreuses recherches d'APIs, nous avons décidé de regrouper des données sur les valeurs foncières de tous les logements parisiens, et des données sur la démographie à Paris.
+# Projet API sur la valeur foncière du logement à Paris en fonction de la population
+L'objectif de notre projet était de construire une API qui relie deux APIs différentes pour observer s'il existe des corrélations entre les deux, tout en proposant deux formats de récupération des données. Après de nombreuses recherches d'APIs, nous avons décidé de regrouper des données sur les valeurs foncières de tous les logements parisiens, et des données sur la démographie à Paris.
 
 ## Etape 1 - Choix des API
 L'objectif majeur du projet était la création d'une application simple d'utilisation, et pertinente. Ainsi, à partir du nom d'un arrondissement parisien choisi par l'utilisateur (avec le nom ou le code INSEE), l'application renvoie un ensemble de données sur la démographie de l'arrondissement, comme la répartition des âges, et la valeur foncière moyenne (en euros).
