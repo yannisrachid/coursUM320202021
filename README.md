@@ -20,7 +20,7 @@ Explications Tableau, requêtes (à compléter)
 ## Les difficultés rencontrées
 - Le choix de l'API
 
-La première difficultée rencontrée a été de trouver deux APIs dont l'étude pouvait être cohérente. En effet, au début nous voulions utiliser une API sur la météo, ce que le professeur nous a déconseillé car c'était peu pertinent, et beaucoup de groupes l'avaient et voulaient l'utiliser les années précédentes. Ayant trouvés une API sur la valeur foncière, on s'est dit qu'il était intéressant d'observer la population qui vivait au sein de ces logements. Par exemple, si dans les arrondissements où le prix foncier moyen était élevé, la population est plutôt vieille. Ou encore si dans les arrondissements où le prix foncier est plus faible, est-ce que plus de personnes jeunes ou étrangères y résident ?
+La première difficulté rencontrée a été de trouver deux APIs dont l'étude pouvait être cohérente. En effet, au début nous voulions utiliser une API sur la météo, ce que le professeur nous a déconseillé car c'était peu pertinent, et beaucoup de groupes l'avaient et voulaient l'utiliser les années précédentes. Ayant trouvés une API sur la valeur foncière, on s'est dit qu'il était intéressant d'observer la population qui vivait au sein de ces logements. Par exemple, si dans les arrondissements où le prix foncier moyen était élevé, la population est plutôt vieille. Ou encore si dans les arrondissements où le prix foncier est plus faible, est-ce que plus de personnes jeunes ou étrangères y résident ?
 
 - L'affichage des graphiques :
 
